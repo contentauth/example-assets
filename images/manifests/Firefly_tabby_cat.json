@@ -1,0 +1,104 @@
+{
+  "active_manifest": "urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372",
+  "manifests": {
+    "urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372": {
+      "claim_generator": "Adobe_Firefly",
+      "claim_generator_info": [
+        {
+          "name": "Adobe_Firefly",
+          "org.contentauth.c2pa_rs": "0.65.0"
+        }
+      ],
+      "title": "Generated image",
+      "format": "image/jpeg",
+      "instance_id": "xmp:iid:93a99d27-2472-4d38-8c6c-f0d3a5817881",
+      "thumbnail": {
+        "format": "image/jpeg",
+        "identifier": "self#jumbf=/c2pa/urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372/c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+      },
+      "ingredients": [],
+      "assertions": [
+        {
+          "label": "c2pa.actions.v2",
+          "data": {
+            "actions": [
+              {
+                "action": "c2pa.created",
+                "softwareAgent": "Adobe Firefly",
+                "parameters": {
+                  "com.adobe.firefly.version": "4.0.0-release-firefly_v4-main_78135.80468",
+                  "com.adobe.firefly.operation": "text_to_image"
+                },
+                "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+              }
+            ],
+            "allActionsIncluded": true
+          }
+        }
+      ],
+      "signature_info": {
+        "alg": "Ps256",
+        "issuer": "Adobe Inc.",
+        "common_name": "Adobe Firefly C2PA",
+        "cert_serial_number": "413718503961764353137091285004603055550459694885",
+        "time": "2025-10-23T21:14:47+00:00"
+      },
+      "label": "urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372"
+    }
+  },
+  "validation_results": {
+    "activeManifest": {
+      "success": [
+        {
+          "code": "signingCredential.ocsp.notRevoked",
+          "url": "OCSP_RESPONSE",
+          "explanation": "certificate not revoked"
+        },
+        {
+          "code": "timeStamp.validated",
+          "url": "self#jumbf=/c2pa/urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372/c2pa.signature",
+          "explanation": "timestamp message digest matched: Adobe SHA256 ECC256 Timestamp Responder 2025 1"
+        },
+        {
+          "code": "claimSignature.insideValidity",
+          "url": "self#jumbf=/c2pa/urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "claimSignature.validated",
+          "url": "self#jumbf=/c2pa/urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372/c2pa.assertions/c2pa.thumbnail.claim.jpeg",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372/c2pa.assertions/c2pa.actions.v2",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.actions.v2"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372/c2pa.assertions/c2pa.hash.data",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+        },
+        {
+          "code": "assertion.dataHash.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372/c2pa.assertions/c2pa.hash.data",
+          "explanation": "data hash valid"
+        }
+      ],
+      "informational": [
+        {
+          "code": "timeStamp.untrusted",
+          "url": "self#jumbf=/c2pa/urn:uuid:828b19c8-a70e-4a3f-84df-763967f7d372/c2pa.signature",
+          "explanation": "timestamp cert untrusted: Adobe SHA256 ECC256 Timestamp Responder 2025 1"
+        }
+      ],
+      "failure": []
+    }
+  },
+  "validation_state": "Valid"
+}

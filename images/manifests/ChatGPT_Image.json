@@ -1,0 +1,186 @@
+{
+  "active_manifest": "urn:c2pa:34ebf58c-c92a-4ff6-8c41-36167e76a4dd",
+  "manifests": {
+    "urn:c2pa:34ebf58c-c92a-4ff6-8c41-36167e76a4dd": {
+      "claim_generator_info": [
+        {
+          "name": "ChatGPT",
+          "org.contentauth.c2pa_rs": "0.67.1"
+        }
+      ],
+      "title": "image.png",
+      "instance_id": "xmp:iid:6a9ee498-b055-40be-a3aa-992e331bb39a",
+      "ingredients": [
+        {
+          "title": "image.png",
+          "format": "png",
+          "instance_id": "xmp:iid:c139f826-d06b-4614-ac50-158c788023cd",
+          "thumbnail": {
+            "format": "image/jpeg",
+            "identifier": "self#jumbf=c2pa.assertions/c2pa.thumbnail.ingredient"
+          },
+          "relationship": "parentOf",
+          "active_manifest": "urn:c2pa:70a71e1c-fe9d-4865-9038-710761116e80",
+          "validation_results": {
+            "activeManifest": {
+              "success": [
+                {
+                  "code": "claimSignature.insideValidity",
+                  "url": "self#jumbf=/c2pa/urn:c2pa:70a71e1c-fe9d-4865-9038-710761116e80/c2pa.signature",
+                  "explanation": "claim signature valid"
+                },
+                {
+                  "code": "claimSignature.validated",
+                  "url": "self#jumbf=/c2pa/urn:c2pa:70a71e1c-fe9d-4865-9038-710761116e80/c2pa.signature",
+                  "explanation": "claim signature valid"
+                },
+                {
+                  "code": "assertion.hashedURI.match",
+                  "url": "self#jumbf=/c2pa/urn:c2pa:70a71e1c-fe9d-4865-9038-710761116e80/c2pa.assertions/c2pa.actions.v2",
+                  "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.actions.v2"
+                },
+                {
+                  "code": "assertion.hashedURI.match",
+                  "url": "self#jumbf=/c2pa/urn:c2pa:70a71e1c-fe9d-4865-9038-710761116e80/c2pa.assertions/c2pa.hash.data",
+                  "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+                },
+                {
+                  "code": "assertion.dataHash.match",
+                  "url": "self#jumbf=/c2pa/urn:c2pa:70a71e1c-fe9d-4865-9038-710761116e80/c2pa.assertions/c2pa.hash.data",
+                  "explanation": "data hash valid"
+                }
+              ],
+              "informational": [],
+              "failure": []
+            }
+          },
+          "label": "c2pa.ingredient.v3"
+        }
+      ],
+      "assertions": [
+        {
+          "label": "c2pa.actions.v2",
+          "data": {
+            "actions": [
+              {
+                "action": "c2pa.opened",
+                "parameters": {
+                  "ingredients": [
+                    {
+                      "url": "self#jumbf=c2pa.assertions/c2pa.ingredient.v3",
+                      "hash": "gvp7eB194bvLPmCZrG/cB784ybITGK1UeJyOjgKAzuo="
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "signature_info": {
+        "alg": "Es256",
+        "issuer": "OpenAI",
+        "common_name": "Truepic Lens CLI in ChatGPT",
+        "cert_serial_number": "631872854730012650133502748526736898092667640635"
+      },
+      "label": "urn:c2pa:34ebf58c-c92a-4ff6-8c41-36167e76a4dd"
+    },
+    "urn:c2pa:70a71e1c-fe9d-4865-9038-710761116e80": {
+      "claim_generator_info": [
+        {
+          "name": "ChatGPT",
+          "org.contentauth.c2pa_rs": "0.67.1"
+        }
+      ],
+      "title": "image.png",
+      "instance_id": "xmp:iid:69d13b28-b2f9-481d-942c-ccdf72284191",
+      "ingredients": [],
+      "assertions": [
+        {
+          "label": "c2pa.actions.v2",
+          "data": {
+            "actions": [
+              {
+                "action": "c2pa.created",
+                "softwareAgent": {
+                  "name": "GPT-4o"
+                },
+                "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+              },
+              {
+                "action": "c2pa.converted"
+              }
+            ]
+          }
+        }
+      ],
+      "signature_info": {
+        "alg": "Es256",
+        "issuer": "OpenAI",
+        "common_name": "Truepic Lens CLI in ChatGPT",
+        "cert_serial_number": "631872854730012650133502748526736898092667640635"
+      },
+      "label": "urn:c2pa:70a71e1c-fe9d-4865-9038-710761116e80"
+    }
+  },
+  "validation_results": {
+    "activeManifest": {
+      "success": [
+        {
+          "code": "claimSignature.insideValidity",
+          "url": "self#jumbf=/c2pa/urn:c2pa:34ebf58c-c92a-4ff6-8c41-36167e76a4dd/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "claimSignature.validated",
+          "url": "self#jumbf=/c2pa/urn:c2pa:34ebf58c-c92a-4ff6-8c41-36167e76a4dd/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:c2pa:34ebf58c-c92a-4ff6-8c41-36167e76a4dd/c2pa.assertions/c2pa.thumbnail.ingredient",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.thumbnail.ingredient"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:c2pa:34ebf58c-c92a-4ff6-8c41-36167e76a4dd/c2pa.assertions/c2pa.ingredient.v3",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.ingredient.v3"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:c2pa:34ebf58c-c92a-4ff6-8c41-36167e76a4dd/c2pa.assertions/c2pa.actions.v2",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.actions.v2"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:c2pa:34ebf58c-c92a-4ff6-8c41-36167e76a4dd/c2pa.assertions/c2pa.hash.data",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+        },
+        {
+          "code": "assertion.dataHash.match",
+          "url": "self#jumbf=/c2pa/urn:c2pa:34ebf58c-c92a-4ff6-8c41-36167e76a4dd/c2pa.assertions/c2pa.hash.data",
+          "explanation": "data hash valid"
+        }
+      ],
+      "informational": [],
+      "failure": []
+    },
+    "ingredientDeltas": [
+      {
+        "ingredientAssertionURI": "self#jumbf=/c2pa/urn:c2pa:34ebf58c-c92a-4ff6-8c41-36167e76a4dd/c2pa.assertions/c2pa.ingredient.v3",
+        "validationDeltas": {
+          "success": [
+            {
+              "code": "ingredient.manifest.validated",
+              "url": "self#jumbf=/c2pa/urn:c2pa:70a71e1c-fe9d-4865-9038-710761116e80",
+              "explanation": "ingredient hash matched"
+            }
+          ],
+          "informational": [],
+          "failure": []
+        }
+      }
+    ]
+  },
+  "validation_state": "Valid"
+}
