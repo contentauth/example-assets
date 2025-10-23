@@ -1,0 +1,267 @@
+{
+  "active_manifest": "adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f",
+  "manifests": {
+    "adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f": {
+      "claim_generator": "Adobe_Photoshop/26.11.0 adobe_c2pa/0.14.2 c2pa-rs/0.43.0",
+      "claim_generator_info": [
+        {
+          "name": "Adobe Photoshop",
+          "version": "26.11.0",
+          "com.adobe.build": "20250918.r.18 a87e57f mac"
+        }
+      ],
+      "title": "car-es-Ps-Cr.jpg",
+      "format": "image/jpeg",
+      "instance_id": "xmp:iid:55bbae80-1e03-4d3a-b5fd-34e9aa804107",
+      "thumbnail": {
+        "format": "image/jpeg",
+        "identifier": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+      },
+      "ingredients": [
+        {
+          "title": "car-es.jpeg",
+          "format": "image/jpeg",
+          "document_id": "xmp:iid:73f1d577-2d17-46ec-908a-09f2380df77c",
+          "instance_id": "xmp:iid:73f1d577-2d17-46ec-908a-09f2380df77c",
+          "thumbnail": {
+            "format": "image/jpeg",
+            "identifier": "self#jumbf=c2pa.assertions/c2pa.thumbnail.ingredient.jpeg"
+          },
+          "relationship": "componentOf",
+          "metadata": {
+            "dateTime": "2025-10-23T19:19:26.135Z"
+          },
+          "label": "c2pa.ingredient"
+        }
+      ],
+      "credentials": [
+        {
+          "type": [
+            "VerifiableCredential"
+          ],
+          "proof": {
+            "created": "2025-10-23T19:18:49.016744316Z",
+            "type": "Ed25519Signature2018",
+            "jws": "f66997e992e6d4318403b2a8f92f53f1052007f33a4c1cae15ea60d9db5dcf3008eb0952323bd63edd5c27ce339d725ed56139a5e16dc4d92bc2368145ffe870f",
+            "verificationMethod": "did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c",
+            "proofPurpose": "assertionMethod"
+          },
+          "credentialSubject": {
+            "id": "did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c",
+            "name": "Rand McKinney"
+          },
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+          ]
+        }
+      ],
+      "assertions": [
+        {
+          "label": "stds.schema-org.CreativeWork",
+          "data": {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Rand McKinney",
+                "identifier": "did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c",
+                "credential": [
+                  {
+                    "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.credentials/did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c",
+                    "alg": "sha256",
+                    "hash": "HpVGxTaBCmyeyC3hrIfJSzi8WFRT0b8w/XPol00a+H8="
+                  }
+                ]
+              },
+              {
+                "@type": "Person",
+                "@id": "https://www.instagram.com/randmckinney",
+                "name": "randmckinney",
+                "credential": [
+                  {
+                    "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.credentials/did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c",
+                    "alg": "sha256",
+                    "hash": "HpVGxTaBCmyeyC3hrIfJSzi8WFRT0b8w/XPol00a+H8="
+                  }
+                ],
+                "identifier": "did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c"
+              },
+              {
+                "@type": "Person",
+                "name": "randmckinney",
+                "credential": [
+                  {
+                    "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.credentials/did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c",
+                    "alg": "sha256",
+                    "hash": "HpVGxTaBCmyeyC3hrIfJSzi8WFRT0b8w/XPol00a+H8="
+                  }
+                ],
+                "@id": "https://www.behance.net/randmckinney",
+                "identifier": "did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c"
+              },
+              {
+                "@type": "Person",
+                "identifier": "did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c",
+                "name": "Rand McKinney",
+                "credential": [
+                  {
+                    "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.credentials/did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c",
+                    "alg": "sha256",
+                    "hash": "HpVGxTaBCmyeyC3hrIfJSzi8WFRT0b8w/XPol00a+H8="
+                  }
+                ],
+                "@id": "https://www.linkedin.com/in/crandmck"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://twitter.com/randmckinney",
+                "name": "randmckinney",
+                "identifier": "did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c",
+                "credential": [
+                  {
+                    "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.credentials/did:adobe:f8c7040348ad6429ec424a38c15dd38bab841ccecd7f47af7e165fb96eab18e9c",
+                    "alg": "sha256",
+                    "hash": "HpVGxTaBCmyeyC3hrIfJSzi8WFRT0b8w/XPol00a+H8="
+                  }
+                ]
+              }
+            ]
+          },
+          "kind": "Json"
+        },
+        {
+          "label": "c2pa.actions.v2",
+          "data": {
+            "actions": [
+              {
+                "action": "c2pa.opened",
+                "parameters": {
+                  "description": "Opened a pre-existing file",
+                  "com.adobe.tool": "open",
+                  "com.adobe.icon": "https://cai-assertions.adobe.com/icons/import-dark.svg",
+                  "instanceId": "xmp:iid:73f1d577-2d17-46ec-908a-09f2380df77c"
+                }
+              },
+              {
+                "action": "c2pa.cropped",
+                "parameters": {
+                  "com.adobe.tool": "crop",
+                  "com.adobe.icon": "https://cai-assertions.adobe.com/icons/crop-dark.svg",
+                  "description": "Used cropping tools, reducing or expanding visible content area"
+                }
+              },
+              {
+                "action": "c2pa.resized",
+                "parameters": {
+                  "com.adobe.tool": "image_size",
+                  "description": "Changed dimensions or file size",
+                  "com.adobe.icon": "https://cai-assertions.adobe.com/icons/resize-dark.svg"
+                }
+              }
+            ],
+            "metadata": {
+              "reviewRatings": [],
+              "dateTime": "2025-10-23T19:19:17.218Z",
+              "localizations": []
+            }
+          }
+        }
+      ],
+      "signature_info": {
+        "alg": "Ps256",
+        "issuer": "Adobe Inc.",
+        "common_name": "Adobe C2PA",
+        "cert_serial_number": "419323736054358557205556576293173262079519360989",
+        "time": "2025-10-23T19:22:19+00:00"
+      },
+      "label": "adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f"
+    }
+  },
+  "validation_results": {
+    "activeManifest": {
+      "success": [
+        {
+          "code": "signingCredential.ocsp.notRevoked",
+          "url": "OCSP_RESPONSE",
+          "explanation": "certificate not revoked"
+        },
+        {
+          "code": "timeStamp.validated",
+          "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.signature",
+          "explanation": "timestamp message digest matched: Adobe SHA256 ECC256 Timestamp Responder 2025 1"
+        },
+        {
+          "code": "claimSignature.insideValidity",
+          "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "claimSignature.validated",
+          "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.assertions/c2pa.thumbnail.claim.jpeg",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.assertions/c2pa.thumbnail.ingredient.jpeg",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.thumbnail.ingredient.jpeg"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.assertions/c2pa.ingredient",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.ingredient"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.assertions/stds.schema-org.CreativeWork",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/stds.schema-org.CreativeWork"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.assertions/c2pa.actions",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.actions"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.assertions/c2pa.hash.data",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+        },
+        {
+          "code": "assertion.dataHash.match",
+          "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.assertions/c2pa.hash.data",
+          "explanation": "data hash valid"
+        }
+      ],
+      "informational": [
+        {
+          "code": "timeStamp.untrusted",
+          "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.signature",
+          "explanation": "timestamp cert untrusted: Adobe SHA256 ECC256 Timestamp Responder 2025 1"
+        }
+      ],
+      "failure": []
+    },
+    "ingredientDeltas": [
+      {
+        "ingredientAssertionURI": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.assertions/c2pa.ingredient",
+        "validationDeltas": {
+          "success": [],
+          "informational": [
+            {
+              "code": "ingredient.unknownProvenance",
+              "url": "self#jumbf=/c2pa/adobe:urn:uuid:3e12431f-16dc-478c-9aa1-f9eb40910a0f/c2pa.assertions/c2pa.ingredient",
+              "explanation": "car-es.jpeg: ingredient does not have provenance"
+            }
+          ],
+          "failure": []
+        }
+      }
+    ]
+  },
+  "validation_state": "Valid"
+}
